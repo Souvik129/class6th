@@ -1,0 +1,140 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+.semantic{
+	background-color: rgba(220, 35, 236, 0.945);
+}
+
+.non-semantic{
+	background-color: rgb(238, 255, 0);
+	color: rgb(12, 91, 238);
+}
+
+.block1{
+	background-color: rgb(247, 9, 100);
+	color: white;
+	display: block;
+}
+
+.inline1{
+	background-color: rgb(0, 255, 115);
+	display: inline;
+	font-size: 25px;
+}
+
+.inline-block{
+	background-color: rgb(255, 145, 0);
+	color: white;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.block{
+	width: 150px;
+	height: 150px;
+}
+
+.one{
+	background-color: rgb(0, 140, 255);
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.two{
+	background-color: green;
+	padding: 40px;
+}
+
+.layout{
+	background-color: rgb(255, 0, 106);
+	width: 100%;
+}
+.container{
+
+	border: 5px solid rgb(3, 28, 252);
+	width: 1000px;
+	margin: 0 auto; 
+}
+
+.header{
+	width: 100%;
+	border: 2px solid rgb(255, 255, 255);
+	overflow: hidden;
+}
+
+.logo{
+	border: 2px solid rgb(247, 244, 244);
+	width: 25%;
+	margin: 20px;
+	padding: 20px;
+	display: inline-block
+}
+.nav{
+	border: 3px solid rgb(247, 244, 244);
+	width: 50%;
+	margin: 20px 20px 0 0;
+	padding: 20px;
+	float: right;
+	display: inline-block; 
+}
+
+.banner{
+	border: 2px solid rgb(243, 240, 240);
+	margin: 20px;
+	padding: 130px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+.about   {
+	border: 2px solid rgb(253, 249, 249);
+	margin: 20px;
+	padding: 125px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+.service{
+	border: 1px solid rgb(250, 247, 247);
+	margin: 20px;
+	margin-top: 0;
+	overflow: hidden;
+	text-align: center;
+}
+
+.serviceon{
+	border: 1px solid rgb(241, 238, 238);
+	width: 21%;
+	height: 200px;
+	float: left;
+	text-align: center;
+	margin: 50px 13px;
+}
+
+.ourwork {
+	border: 1px solid rgb(245, 242, 242);
+	margin: 20px;
+	padding: 100px;
+	margin-top: 0;
+	text-align: center;
+}
+
+.contact{
+	border: 1px solid rgb(248, 244, 244);
+	margin: 20px;
+	padding: 100px;
+	margin-top: 0;
+	text-align: center;
+}
+
+.footer{
+	border: 1px solid rgb(248, 248, 248);
+	margin: 20px;
+	padding: 75px;
+	margin-top: 0;
+	text-align: center;
+}
